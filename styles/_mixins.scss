@@ -29,7 +29,7 @@
 /**
 	прием аргументов будет принимать опционально булевый параметр
  */
- @mixin flex-center {
+ @mixin flex-center ($isInline: false) {
 	@if $isInline {
 		display: inline-flex;
 	} @else {
